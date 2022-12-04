@@ -6,18 +6,21 @@
 body {
     background-color: aquamarine;
     max-width: 100vw;
+    overflow-x: hidden;
 }
 
 /* ------  HEADER  -------- */
 header {
     position: sticky;
-    top: 2px;
+    top: 0px;
+    background-color: aquamarine;
 }
 .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 40px;
+    margin: 0 40px;
+    padding: 30px 0;
 }
 .logo {
     width: 50vw;
@@ -199,6 +202,75 @@ header {
 svg {
     height: 100%;
     width: 100%;
+}
+.photo {
+    width: 100vw;
+}
+.photo-row {
+    height: 50;
+    display: flex;
+}
+.photo-img {
+    height: 50vh;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-desc {
+    height: 50vh;
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo-div-img{
+    height: 50vh;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-div-desc {
+    height: 50vh;
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 350px;
+    width: 700px;
+    border: 6px solid #121212;
+    border-radius: 6px;
+}
+#img {
+    height: 350px;
+    width: auto;
+    border: 6px solid #121212;
+    border-radius: 6px;
+}
+.photo-desc p, .photo-div-desc p {
+    margin-top: 2vh;
+    font-family: "poppins", sans-serif;
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+.hr-one{
+    background-color: rgb(194, 166, 10);
+    height: 4px;
+    width: 30vw;
+    margin-bottom: 3vh;
+}
+.hr-two{
+    background-color: rgb(194, 166, 10);
+    height: 4px;
+    width: 20vw;
 }
 
 /* ----- PRE-REQUISITE ------  */
