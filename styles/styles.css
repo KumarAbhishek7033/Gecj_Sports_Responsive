@@ -178,6 +178,29 @@ header {
     color: #000;
 }
 
+/* ------  MAIN ------- */
+.animation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.anime-desc {
+    width: 49vw;
+}
+.anime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 48vw; 
+    height: 50vh; 
+    margin-top: 20px;
+}
+svg {
+    height: 100%;
+    width: 100%;
+}
+
 /* ----- PRE-REQUISITE ------  */
 .hr {
     height: 4px;
