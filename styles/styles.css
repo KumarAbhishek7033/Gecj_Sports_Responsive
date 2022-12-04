@@ -7,6 +7,12 @@ body {
     background-color: aquamarine;
     max-width: 100vw;
 }
+
+/* ------  HEADER  -------- */
+header {
+    position: sticky;
+    top: 2px;
+}
 .head {
     display: flex;
     justify-content: space-between;
@@ -150,4 +156,31 @@ body {
         color: #121212;
         -webkit-text-stroke: 2px gray;
     }
+}
+.slogan {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slo-div {
+    border: 1px solid grey;
+    border-radius: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    width: 80vw;
+    box-shadow: 6px 6px 6px grey;
+}
+.slo-div h4 {
+    font-family: poppins;
+    color: #000;
+}
+
+/* ----- PRE-REQUISITE ------  */
+.hr {
+    height: 4px;
+    background-color: #f44336;
+    margin-top: 10px;
 }
