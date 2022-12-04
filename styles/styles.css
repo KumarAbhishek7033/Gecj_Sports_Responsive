@@ -299,6 +299,56 @@ svg {
     color: #f44336;
 }
 
+/* ------  CONTACT -------  */
+.contact h2 {
+    margin-top: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+}
+.full-address {
+    display: flex;
+    width: 35vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+.address-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- ABOUT --------  */
+.about {
+    height: 50vh;
+}
+.about h2 {
+    margin-top: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about p {
+    margin: 30px 40px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* ----- PRE-REQUISITE ------  */
 .hr {
     height: 4px;
