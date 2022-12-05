@@ -11,9 +11,8 @@ body {
 
 /* ------  HEADER  -------- */
 header {
-    position: sticky;
-    top: 0px;
     background-color: aquamarine;
+    position: relative;
 }
 .head {
     display: flex;
@@ -21,6 +20,10 @@ header {
     align-items: center;
     margin: 0 40px;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    backdrop-filter: blur(5px);
 }
 .logo {
     width: 50vw;
@@ -185,18 +188,19 @@ header {
 .animation {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
-}
-.anime-desc {
-    width: 49vw;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 35vh;
+    z-index: -5;
 }
 .anime {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
-    width: 48vw; 
-    height: 50vh; 
+    width: 98vw; 
+    height: 65vh; 
     margin-top: 20px;
 }
 svg {
@@ -209,6 +213,7 @@ svg {
 .photo-row {
     height: 50;
     display: flex;
+    margin: 40px 0;
 }
 .photo-img {
     height: 50vh;
@@ -264,7 +269,7 @@ svg {
 
 /* ------ FOOTER --------   */
 .footer-up {
-    margin: 10px 20px;
+    margin: 40px 20px 20px 20px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
