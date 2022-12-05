@@ -4,22 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: aquamarine;
+    background-color: rebeccapurple;
     max-width: 100vw;
     overflow-x: hidden;
 }
 
 /* ------  HEADER  -------- */
 header {
-    background-color: aquamarine;
+    background-color: rebeccapurple;
     position: relative;
 }
 .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 40px;
-    padding: 20px 0;
+    padding: 10px 40px;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -305,6 +304,9 @@ svg {
 }
 
 /* ------  CONTACT -------  */
+.contact {
+    margin-top: 40px;
+}
 .contact h2 {
     margin-top: 8px;
     text-align: center;
@@ -340,6 +342,7 @@ svg {
 
 /* ----- ABOUT --------  */
 .about {
+    margin-top: 40px;
     height: 50vh;
 }
 .about h2 {
@@ -352,6 +355,51 @@ svg {
     text-align: justify;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* -------   FOR MOBILE VIEW -------    */
+@media only screen and (max-width: 600px) {
+    /* Style the navigation menu */
+    .head {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+    .head #nav-bar {
+        display: none;
+    }
+  
+  /* Style navigation menu links */
+    .head a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+  
+  /* Style the hamburger menu */
+    .head a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+  
+  /* Add a grey background color on mouse-over */
+    .head a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+  
+  /* Style the active link (or home/logo) */
+    .logo {
+        background-color: #04AA6D;
+        color: white;
+    }
 }
 
 /* ----- PRE-REQUISITE ------  */

@@ -17,6 +17,7 @@
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/987b9a54fa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         <pre>Government Engineering College Jhalawar</pre>
       </a>
     </div>
-    <div class="nav">
+    <div class="nav" id="nav-bar">
       <ul>
         <li><a href="./index.html">HOME</a></li>
         <li><a href="">SPORT'S GALLERY</a></li>
@@ -35,6 +36,8 @@
         <li><a href="./contact.html">CONTACT US</a></li>
       </ul>
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i>
+    </a>
   </div>
   <header>
     <div class="sporion">
@@ -52,7 +55,7 @@
       <p>2</p>
     </div>
     <div class="slogan">
-      <div class="slo-div">
+      <div class="slo-div" id="slogan-div">
         <marquee behavior=alternate direction="top">
           <h4>"WINNERS NEVER QUITS, QUITER NEVER WIN"</h4>
         </marquee>
@@ -1933,6 +1936,16 @@
       <h4>( Department Of Computer Science & Enigneering, Government Engineering College Jhalawar )</h4>
     </div>
   </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav-bar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </body>
 
 </html>
