@@ -246,7 +246,7 @@ svg {
 }
 .img{
     height: 350px;
-    width: 700px;
+    width: 500px;
     border: 6px solid #121212;
     border-radius: 6px;
 }
@@ -357,50 +357,6 @@ svg {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* -------   FOR MOBILE VIEW -------    */
-@media only screen and (max-width: 700px) {
-    /* Style the navigation menu */
-    .head {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-    }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-    .head #nav-bar {
-        display: none;
-    }
-  
-  /* Style navigation menu links */
-    .head a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-  
-  /* Style the hamburger menu */
-    .head a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-  
-  /* Add a grey background color on mouse-over */
-    .head a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-  
-  /* Style the active link (or home/logo) */
-    .logo {
-        background-color: #04AA6D;
-        color: white;
-    }
-}
 
 /* ----- PRE-REQUISITE ------  */
 .hr {
