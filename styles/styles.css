@@ -300,7 +300,7 @@ svg {
 }
 .footer-down a {
     text-decoration: none;
-    color: #f44336;
+    color: #121212;
 }
 
 /* ------  CONTACT -------  */
@@ -359,7 +359,7 @@ svg {
 
 /* ------  RESPONSIVE WEB -------   */
 
-@media only screen and (max-width:1040px) {
+@media only screen and (max-device-width:1040px) and (min-device-width:600px) {
     .head {
         width: 100vw;
         display: inline-block;
@@ -410,6 +410,78 @@ svg {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media only screen and (max-device-width:600px) {
+    .head {
+        width: 100vw;
+        display: inline-block;
+    }
+    .nav {
+        width: 100%;
+        overflow: hidden;
+        height: 210px;
+        transition: height 0.5s;
+    }
+    .nav ul {
+        text-align: center;
+        display: block;
+        transition: all 0.7s ease-out;
+    }
+    .nav ul li {
+        width: 90vw;
+        border: 1px solid black;
+        padding: 10px 0;
+        background-color: #f44336;
+    }   
+    .nav ul li a {
+        color: antiquewhite;
+    }
+    .fa-solid {
+        opacity: 100;
+        position: absolute;
+        top: 43px;
+        right: 48px;
+        display: block;
+    }
+    .v-class {
+        height: 0px !important;
+    }
+    .sporion {
+        height: 7vh;
+    }
+    .photo-row {
+        margin: 60px 0;
+    }
+    .photo-desc p {
+        font-size: 24px;
+    }
+    .footer-up {
+        width: 95vw;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+    }
+    .f1 {
+        margin: 15px 0;
+    }
+    .footer-div-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .animation {
+        top: 24vh;
+    }
+    .footer-down h3 {
+        font-size: 14px;
+    }
+    .footer-down h4 {
+        font-size: 16px;
+    }
+    .footer-down p {
+        font-size: 15px;
     }
 }
 
