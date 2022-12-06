@@ -370,6 +370,7 @@ svg {
     .nav ul {
         text-align: center;
         display: block;
+        transition: all 0.7s ease-out;
     }
     .nav ul li {
         width: 90vw;
