@@ -394,6 +394,23 @@ svg {
     .v-class {
         display: none;
     }
+    .photo-row {
+        margin: 60px 0;
+    }
+    .footer-up {
+        width: 95vw;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+    }
+    .f1 {
+        margin: 15px 0;
+    }
+    .footer-div-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* ----- PRE-REQUISITE ------  */
