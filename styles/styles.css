@@ -365,8 +365,10 @@ svg {
         display: inline-block;
     }
     .nav {
-        width: 100vw;
-        transition: all 100ms;
+        width: 100%;
+        overflow: hidden;
+        height: 210px;
+        transition: height 0.5s;
     }
     .nav ul {
         text-align: center;
@@ -388,9 +390,6 @@ svg {
         top: 43px;
         right: 48px;
         display: block;
-    }
-    .h-nav {
-        height: 185px;
     }
     .v-class {
         height: 0px !important;
