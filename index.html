@@ -28,7 +28,7 @@
         <pre>Government Engineering College Jhalawar</pre>
       </a>
     </div>
-    <div class="nav">
+    <div class="nav v-class h-nav ">
       <ul>
         <li><a href="./index.html">HOME</a></li>
         <li><a href="">SPORT'S GALLERY</a></li>
@@ -36,6 +36,7 @@
         <li><a href="./contact.html">CONTACT US</a></li>
       </ul>
     </div>
+    <i class="fa-solid fa-bars"></i>
   </div>
   <header>
     <div class="sporion">
@@ -1935,14 +1936,13 @@
     </div>
   </footer>
   <script>
-    function myFunction() {
-      var x = document.getElementById("nav-bar");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
+    icon = document.querySelector('.fa-solid')
+    navBar = document.querySelector('.nav')
+
+    icon.addEventListener('click',()=> {
+      navBar.classList.toggle('v-class');
+      navBar.classList.toggle('h-nav');
+    })
   </script>
 </body>
 
