@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background-color: rebeccapurple;
@@ -416,7 +417,7 @@ svg {
     }
 }
 
-@media only screen and (max-device-width:600px) {
+@media only screen and (max-device-width:600px) and (min-device-width: 400px) {
     .head {
         width: 100vw;
         display: inline-block;
@@ -455,9 +456,12 @@ svg {
         height: 7vh;
     }
     .photo-row {
-        margin: 60px 0;
+        margin: 20px 0;
     }
     .photo-desc p {
+        font-size: 24px;
+    }
+    .photo-div-desc p {
         font-size: 24px;
     }
     .footer-up {
@@ -476,6 +480,120 @@ svg {
     }
     .animation {
         top: 24vh;
+    }
+    .footer-down h3 {
+        font-size: 14px;
+    }
+    .footer-down h4 {
+        font-size: 16px;
+    }
+    .footer-down p {
+        font-size: 15px;
+    }
+    .contact-us {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .address-one h4 {
+        text-align: center;
+        width: 90%;
+    }
+    .address-two h4 {
+        text-align: center;
+        width: 90%;
+    }
+    .address-two h3 {
+        text-align: center;
+        width: 90%;
+    }
+    .about h2 {
+        font-size: 50px;
+    }
+    .about p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-device-width:400px) {
+    .head {
+        width: 100vw;
+        display: inline-block;
+    }
+    .nav {
+        width: 100%;
+        overflow: hidden;
+        height: 210px;
+        transition: height 0.5s;
+    }
+    .nav ul {
+        text-align: center;
+        display: block;
+        transition: all 0.7s ease-out;
+    }
+    .nav ul li {
+        width: 90vw;
+        border: 1px solid black;
+        padding: 10px 0;
+        background-color: #f44336;
+    }   
+    .nav ul li a {
+        color: antiquewhite;
+    }
+    .fa-solid {
+        opacity: 100;
+        position: absolute;
+        top: 43px;
+        right: 48px;
+        display: block;
+    }
+    .v-class {
+        height: 0px !important;
+    }
+    .sporion {
+        height: 5vh;
+    }
+    .photo-row {
+        height: 30vh;
+        margin: 5px 0;
+        padding-top: 20px;
+    }
+    .photo-img {
+        height: 27vh;
+        width: 44vw;
+    }
+    .photo-desc {
+        height: 22vh;
+    }
+    .photo-div-img {
+        height: 27vh;
+        width: 44vw;
+    }
+    .photo-div-desc {
+        height: 22vh;
+    }
+    .photo-desc p {
+        font-size: 24px;
+    }
+    .photo-div-desc p {
+        font-size: 24px;
+    }
+    .footer-up {
+        width: 95vw;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+    }
+    .f1 {
+        margin: 15px 0;
+    }
+    .footer-div-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .animation {
+        top: 16vh;
     }
     .footer-down h3 {
         font-size: 14px;
