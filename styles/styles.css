@@ -515,7 +515,7 @@ svg {
     }
 }
 
-@media only screen and (max-device-width:400px) {
+@media only screen and (max-device-width:400px) and (min-device-height:625px) {
     .head {
         width: 100vw;
         display: inline-block;
@@ -594,15 +594,16 @@ svg {
     }
     .animation {
         top: 16vh;
+        height: 50vh;
     }
     .footer-down h3 {
-        font-size: 14px;
+        font-size: 10px;
     }
     .footer-down h4 {
-        font-size: 16px;
+        font-size: 13px;
     }
     .footer-down p {
-        font-size: 15px;
+        font-size: 9px;
     }
     .contact-us {
         flex-direction: column;
