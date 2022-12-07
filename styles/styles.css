@@ -600,10 +600,10 @@ svg {
         font-size: 10px;
     }
     .footer-down h4 {
-        font-size: 13px;
+        font-size: 14px;
     }
     .footer-down p {
-        font-size: 9px;
+        font-size: 13px;
     }
     .contact-us {
         flex-direction: column;
@@ -728,7 +728,7 @@ svg {
         font-size: 13px;
     }
     .footer-down p {
-        font-size: 9px;
+        font-size: 12px;
     }
     .contact-us {
         flex-direction: column;
