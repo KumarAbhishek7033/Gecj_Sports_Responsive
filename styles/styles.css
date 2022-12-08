@@ -5,14 +5,15 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: rebeccapurple;
+    background-color: rgb(130, 181, 181);
+    width: 100vw;
     max-width: 100vw;
     overflow-x: hidden;
 }
 
 /* ------  HEADER  -------- */
 header {
-    background-color: rebeccapurple;
+    background-color: rgb(130, 181, 181);
     position: relative;
 }
 .head {
@@ -168,7 +169,7 @@ header {
     }
 }
 .slogan {
-    margin-top: 4px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
